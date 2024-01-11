@@ -1,0 +1,135 @@
+body {
+  font-family: cursive;
+  background-color: #557ea5;
+}
+p{
+    color: antiquewhite;
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #051e36;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+section {
+  margin: 10px;
+  background-color: #051e36;
+}
+h1, h2 {
+  color: wheat;
+  text-align: center;
+}
+.p1 {
+  color: antiquewhite;
+}
+.container1 {
+  position: relative;
+  width: 350px; 
+  height: 300px; 
+  display: inline block;
+  border-radius: 10%;
+}
+
+.image-container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: inline block;
+  border-radius: 10%;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease; 
+}
+
+.text-overlay1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease; 
+  text-align: center;
+}
+
+.container1:hover .image-container1 img {
+  transform: scale(1.1); 
+}
+.container1:hover .text-overlay1 {
+  opacity: 1; 
+}
+.h2p {
+  color: wheat;
+}
+.p2 {
+  color: antiquewhite;
+}
+
+.container {
+  position: relative;
+  width: 350px; 
+  height: 300px; 
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease; 
+  text-align: center;
+}
+
+.container:hover .image-container img {
+  transform: scale(1.1);
+}
+
+.container:hover .text-overlay {
+  opacity: 1; 
+}
+.container, .container1 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+  display: inline-block;
+  margin: 11%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#bio, #work {
+  background-color: #051e36;
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: #051e36;
+}
