@@ -1,0 +1,28 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0%;
+}
+header{
+   color: black;
+   background-color: #F4C2C2;
+   text-align: center;
+   padding: 1em 0;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a{
+    color: black ;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    
+}
