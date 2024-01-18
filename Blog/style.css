@@ -1,28 +1,59 @@
-body{
-    font-family: 'Arial', sans-serif;
-    background-color: black;
-    margin: 0;
-    padding: 0%;
+body {
+  font-family: "Arial", sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0%;
 }
-header{
-   color: black;
-   background-color: #F4C2C2;
-   text-align: center;
-   padding: 1em 0;
+header {
+  color: black;
+  background-color: #7e8fd4;
+  text-align: center;
+  padding: 1em 0;
 }
-header nav ul{
-    list-style: none;
-    padding: 0;
+header nav ul {
+  list-style: none;
+  padding: 0;
 }
-header nav ul li{
-    display: inline;
-    margin: 0 15px;
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
-header nav ul li a{
-    color: black ;
+header nav ul li a {
+    color: black;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    border: 2px solid #45517e;
+    box-shadow: 2px 3px gray;
 }
-main{
-    
+
+header nav ul li a:hover {
+    background-color: #6d7baf ;
+    border-color: white;
+    color: black;
 }
+
+main {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+article{
+    margin-bottom: 60px ;
+    padding-bottom: 50px ;
+    border-bottom: 1px solid gray ;
+}
+article h2{
+    color: black;
+    margin-bottom: 10px;
+}
+article p{
+    color:#666666;
+    margin-bottom: 10px;
+}
+
+
