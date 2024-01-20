@@ -9,3 +9,14 @@ This repository contains a simple blog template created using HTML and CSS. The 
 - Smooth transitions and hover effects.
 - Styled using CSS for enhanced visual appeal.
 
+## Customization
+
+Feel free to customize the template according to your needs:
+
+- Modify the content within <article> tags to add your blog posts.
+- Adjust the styling in style.css to change the colors, fonts, and layout.
+- Extend the functionality by adding JavaScript for interactive elements or dynamic content.
+
+## Preview
+[Click here to see demo](http://127.0.0.1:5500/Blog/index.html)
+
