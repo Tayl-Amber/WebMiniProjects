@@ -34,3 +34,21 @@ header p{
     color: white;
     border-color: white;
 }
+.features{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+.feature{
+    margin: 10px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 2px 6px grey;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 2px grey;
+}
