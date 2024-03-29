@@ -12,7 +12,7 @@ This repository contains a simple portfolio template created using HTML and CSS.
 ## Customization
 Feel free to customize the template according to your needs:
 
-- Modify the content within <section> or <div> tags to showcase your projects, skills, or any other information.
+- Modify the content within section or div tags to showcase your projects, skills, or any other information.
 - Adjust the styling in style.css to change the colors, fonts, and layout.
 
 ## Preview
