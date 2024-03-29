@@ -20,3 +20,17 @@ header p{
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
+.action{
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: white 0.3s ease;
+    box-shadow: 2px 2px gray;
+    font-weight: bold;
+    border-color: black;
+}
+.action:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
