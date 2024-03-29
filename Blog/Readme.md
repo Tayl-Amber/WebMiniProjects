@@ -17,5 +17,5 @@ Feel free to customize the template according to your needs:
 - Adjust the styling in style.css to change the colors, fonts, and layout.
 
 ## Preview
-[Click here to see demo](http://127.0.0.1:5500/Blog/index.html)
+[Click here to see demo](https://tayl-amber.github.io/WebMiniProjects/)
 
